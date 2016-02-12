@@ -42,7 +42,7 @@ input::-ms-clear, textarea::-ms-clear {
 #logo {
 	max-width: 450px;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	left: 50%;
 	right: auto;
 	bottom: auto;

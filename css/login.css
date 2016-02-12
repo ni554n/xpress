@@ -43,7 +43,7 @@ input::-ms-clear, textarea::-ms-clear {
 #logo {
 	max-width: 450px;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	left: 50%;
 	right: auto;
 	bottom: auto;
@@ -134,6 +134,10 @@ input::-ms-clear, textarea::-ms-clear {
 
 .login-form input.full-width {
   width: 100%;
+}
+
+.login-form input.half-width {
+  width: 49.5%;
 }
 
 .login-form input.has-padding {

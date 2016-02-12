@@ -1,10 +1,10 @@
 <?php
-  
-  $dbhost  = 'localhost';    // Unlikely to require changing
-  $dbname  = 'socialmedia';   // Modify these...
-  $dbuser  = 'root';   // ...variables according
-  $dbpass  = 'mysql';   // ...to your installation
-  $appname = "Social Media"; // ...and preference
+
+  $dbhost  = 'localhost';
+  $dbname  = 'xpress';
+  $dbuser  = 'root';
+  $dbpass  = '';
+  $appname = "Xpress";
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);

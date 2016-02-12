@@ -20,9 +20,9 @@
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale = 1">
 
-			<title>Sonder <?php echo "$appname$userstr"; ?></title>
+			<title>Xpress</title>
 			<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-			
+
 			<!-- Style sheets -->
 			<link rel="stylesheet" href="css/reset.css" type="text/css"> <!-- CSS reset -->
 			<link rel="stylesheet" href="css/index.css" type="text/css"> <!-- main styling -->
@@ -70,7 +70,7 @@
                 </span>
 
                 <div id="logo"><img src="img/logo.png" alt="logo"/></div>
-                <p id="slogan">Everyone has a story to share. Share yours now. It's easy, and free.</p>
+                <p id="slogan">Everyone has a story to express. Express yours now. It's easy, and free.</p>
 
                 <span class="section-nav">
                     <ul>
@@ -83,10 +83,10 @@
             </section>
 
             <section id="section2" class="cd-section" data-parallax="scroll" data-image-src="img/bg/10.jpg">
-                <h1>Get connected with anyone, anywhere in the world. Right here on Sonder.</h1>
+                <h1>Get connected with anyone, anywhere in the world.</h1>
                 <p>
-                    We've got yuou covered. Sonder gives you all the necessary tools to connected with your friends and familly.
-					Create an account now and browse for loved ones. Add them to your list and start communicating!
+                    We've got you covered. Xpress gives you all the necessary tools to connected with your friends and familly.
+					Create an account now and browse for loved ones. Add them to your list and start expressing yourself!
                 </p>
                 <span class="section-nav">
                     <ul>

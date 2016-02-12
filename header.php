@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php 
+<?php
  require_once 'functions.php';
  $userstr = '';
 
@@ -28,7 +28,7 @@ if (!$loggedin)
         <script src="js/sidebar.js" type="text/javascript"></script>
 
 
-        <title>Sonder</title>
+        <title>Xpress</title>
         <link href="img/favicon.ico" rel="icon" type="image/x-icon">
     </head>
 
@@ -36,17 +36,17 @@ if (!$loggedin)
         <div class='wrapper'>
             <div class='sidebar'>
                 <div class='title'>
-                
+
                     <?php
                         echo $user;
                         if(file_exists('user_images/'.$user.'.jpg')){
                             echo "<img src = 'user_images/$user.jpg' alt='profile pic' class='userImage' />";
                         }
                         else {
-                             echo "<img src = 'img/logo-small.png' alt='profile pic' class='userImage' />";
+                             echo "<img src = 'img/logo.png' alt='profile pic' class='userImage' />";
                         }
                     ?>
-                    
+
                 </div>
                 <ul class='nav'>
                     <li><a href='members.php' >Members</a></li>

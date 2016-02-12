@@ -5,7 +5,7 @@ require_once 'functions.php';
 ?>
 
 <div class='main'>
-<?php 
+<?php
 if (isset($_GET['view'])) {
     $view = sanitizeString($_GET['view']);
 
@@ -36,7 +36,7 @@ elseif (isset($_GET['remove'])) {
 $result = queryMysql("SELECT user FROM members ORDER BY user");
 $num = $result->num_rows;
 
-echo "<h3>Sonder members</h3><ul>";
+echo "<h3>Xpress members</h3><ul>";
 
 for ($j = 0; $j < $num; ++$j) {
     $row = $result->fetch_array(MYSQLI_ASSOC);

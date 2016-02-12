@@ -5,7 +5,7 @@
   echo "<div class='main'><h3>Your Profile</h3>";
 
   $result = queryMysql("SELECT * FROM profiles WHERE user='$user'");
-    
+
   if (isset($_POST['text']))
   {
     $text = sanitizeString($_POST['text']);
@@ -44,7 +44,7 @@
     if ($typeok) {
       list($w, $h) = getimagesize($saveto);
 
-      $max = 100;
+      $max = 500;
       $tw  = $w;
       $th  = $h;
 
@@ -71,14 +71,16 @@
   }
 
   showProfile($user);
- 
+
 ?>
 </p>
 </div>
 <div class="container">
     <form method='post' action='profile.php' enctype='multipart/form-data'>
     <h3>Enter or edit your details and/or upload an image</h3>
-    <textarea name='text' cols='50' rows='3'><?=$text?></textarea><br>
+    <textarea name='text' cols='50' rows='3'><?=$text?></textarea><br><br>
+
+
 
 
 

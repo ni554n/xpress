@@ -1,7 +1,7 @@
 window.onload = function () {
     document.getElementById('signin-email').addEventListener('blur', function () {
         checkUser(this);
-        
+
     });
 
     // DOM manipulation
@@ -15,7 +15,7 @@ window.onload = function () {
 function checkUser(user) {
     if (user.value == '') {
         document.getElementById('signup-username').innerHTML = '';
-        return
+        return;
     }
 
     var params = "user=" + user.value;
@@ -30,7 +30,7 @@ function checkUser(user) {
             if (this.status == 200)
                 if (this.responseText != null)
                     document.getElementById('signup-username').innerHTML = this.responseText
-                 
+
     }
     request.send(params);
 }
