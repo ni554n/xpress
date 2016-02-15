@@ -16,8 +16,8 @@ if (isset($_GET['view'])) {
 
     echo "<h3>$name Profile</h3>";
     showProfile($view);
-    echo "<a class='button' href='messages.php?view=$view'>" .
-    "View $name messages</a><br><br>";
+    echo "<a href='messages.php?view=$view'>" .
+    " : View $name messages</a><br><br>";
     die("</div></body></html>");
 }
 

@@ -35,8 +35,8 @@ require_once 'signup.php';
 							WHERE user='$login_user' AND pass='$hash_pass'");
 
                 if ($result->num_rows == 0) {
-                    $error = "<span class='error'>Username/Password
-			  invalid</span><br><br>";
+                    $error = "Username / Passward invalid.";
+                    echo "<script type='text/javascript'>alert('$error');</script>";
                 } else {
                     $_SESSION['user'] = $login_user;
                     $_SESSION['pass'] = $hash_pass;
@@ -68,7 +68,6 @@ require_once 'signup.php';
                 <p class="fieldset">
                     <input class="half-width fieldname" name='login' type='submit' value='Log In'>
                     <input class="half-width fieldname" name='signup' type='submit' value='Sign Up'>
-                    <p><?= $error ?></p>
                 </p>
             </form>
 

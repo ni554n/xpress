@@ -74,16 +74,9 @@
 
 ?>
 </p>
-</div>
-<div class="container">
-    <form method='post' action='profile.php' enctype='multipart/form-data'>
-    <h3>Enter or edit your details and/or upload an image</h3>
-    <textarea name='text' cols='50' rows='3'><?=$text?></textarea><br><br>
-
-
-
-
-
+    <form method='post' action='' enctype='multipart/form-data'>
+    <br><h2>Enter or edit your details and/or upload an image</h2><br>
+    Name: <input type='text' placeholder="Full Name" name='text' value='<?= $text ?>' autocomplete="off"/><br><br>
     Image: <input type='file' name='image' size='14'>
     <input type='submit' value='Save Profile'>
     </form></div><br>

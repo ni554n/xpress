@@ -40,9 +40,10 @@ require_once 'functions.php';
             else {
                 $result = queryMysql("SELECT * FROM members WHERE user='$signup_user'");
 
-                if ($result->num_rows)
-                    $error1 = '<div class="notify errorbox"> <h1>Warning!</h1> <span class="alerticon"><img src="img/notificationBox/error.png" alt="error" /></span> <p>That username already exists. Please try another</p> </div>';
-
+                if ($result->num_rows) {
+                    $error1 = 'That username already exists. Please try another.';
+                    echo "<script type='text/javascript'>alert('$error1');</script>";
+                }
                 else {
                     queryMysql("INSERT INTO members VALUES('$signup_user', '$hash_pass')");
                     //die("<h4>Account created</h4>Please <a href = \"signin.php\"> Log in. </a><br><br>");

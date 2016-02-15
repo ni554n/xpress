@@ -37,8 +37,8 @@
   }
 
   function showProfile($user) {
-    if (file_exists("user_images/$user.jpg"))
-      echo "<img src='user_images/$user.jpg''>";
+    // if (file_exists("user_images/$user.jpg"))
+    //     echo "<img src = 'user_images/$user.jpg' alt='profile pic' class='profilePic' />";
 
     $result = queryMysql("SELECT * FROM profiles WHERE user='$user'");
 
