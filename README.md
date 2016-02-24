@@ -1,11 +1,7 @@
 # Xpress
-A social networking site built using PHP, mySQL, Jquery, Javascript, html and CSS.
+A social networking site built using PHP, MySQL, jQuery, JavaScript, HTML and CSS.
 
-This project was done in collaboration with Jad Haidar, a well respected fellow developer who focused mainly on the css part of this project .
-
-This project is far from its final version, and requires more work. But I'll leave it here for others to benefit from it.
-
-To create the approriate database for the website, please enter the following commands (using mySQL manager in phpmyAdmin or any method you prefer):
+To create the approriate database for the website, import the .sql file provided or enter the following commands using MySQL manager in phpMyAdmin:
 
 ##Database
 ```sql
