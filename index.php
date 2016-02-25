@@ -28,7 +28,7 @@
 			<link rel="stylesheet" href="css/index.css" type="text/css"> <!-- main styling -->
 
 			<!-- Additional Standarized Javascript Libraries for enhanced user experience -->
-			<script src="js/modernizr.js" type="text/javascript"></script> <!-- Modernizr -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script> <!-- Modernizr -->
 			<script src="js/jquery-2.1.1.js" type="text/javascript"></script> <!-- JQuery -->
 
 			<!--User Made/Lesser Known  Libraries -->

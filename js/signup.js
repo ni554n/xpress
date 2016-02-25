@@ -1,8 +1,11 @@
 window.onload = function () {
-    document.getElementById('signin-email').addEventListener('blur', function () {
-        checkUser(this);
+    var signinEmail = document.getElementById('signin-email');
+    if (signinEmail) {
+      signinEmail.addEventListener('blur', function () {
+          checkUser(this);
+      });
+    }
 
-    });
 
     // DOM manipulation
     $('#content').on('click', '.notify', function () {
